@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /*height: 100%*/
+}
+
+body{background-image: linear-gradient(to left, #034159, #02735E, #0CF25D );}
+
+main{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.444);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1{
+    color: #000000;
+
+}
+
+h2{
+    color:#3d3d3d
+}
+
+p{
+    text-align: justify;
+    color: rgb(91, 91, 91);
+}
+

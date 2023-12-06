@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'GnarlyBone';
+            src: url('GnarlyBone_PERSONAL_USE_ONLY.otf')format('opentype'), url('BurtonsPark.ttf') format('truetype');
+            font-weight:100;
+            font-style: normal;
+
+            /*
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-att (Apple Advanced Typography)
+            -svg
+            */
+        }
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1
+        {
+            font-family: 'GnarlyBone', Times, serif;
+            font-size: 6em ;
+        }
+        p{
+            font-family: 'BurtonsPark';
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo//ABCDEFG <br>HIJKLMNOPQRSTUV <br>WXYZ</h1>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, excepturi voluptate vero a corrupti quibusdam nostrum repudiandae voluptatum illo ducimus totam. Odio iure amet, qui neque nostrum fugiat possimus sit!
+    </p>
+    <p>
+        <a href="fonte01.html">Ir para Pagina 1</a>
+    </p>
+</body>
+</html>

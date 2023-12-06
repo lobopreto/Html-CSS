@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        div>p{
+            display: none;
+        }
+        div:hover>p{
+            display: block;
+            color: aqua;
+            background-color: black;
+        }
+        div:hover{
+            color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto</p>
+    <div>passe o mouse aqui
+        <p>texto escondido</p>
+    </div>
+    <p>fim exemplo</p>
+    <p><a href="pseudoclasse.html">pagina pseudoclasses</a></p>
+    <p><a href="links.html">pagina links</a></p>
+</body>
+</html>
