@@ -23,7 +23,11 @@
     min-height: 100vh;
     background-color: darkgrey;
     font-family: var(--fonte1);
+    background-image: url(pngtree-atmospheric-explosion-annual-meeting-banner-background-backgroundannual-meeting-backgroundredgoldfestivebackgroundnew-image_72044.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     
+    background-attachment: fixed;
 
  }
 
@@ -66,36 +70,17 @@ section{
 }
 
  section.normal{
-    background-color: white;
- }
-
- section#joaninha{
-    background-image: url(pacote-d012/imagens/background001.jpg);
-    background-position: right center;
-    background-size: cover;
- }
-
- section#glifos{
-    background-image: url(pacote-d012/imagens/background002.jpg);
-    background-position: right center;
-    background-size: cover;
- }
-
- section.imagem {
-    background-color: rgba(0, 0, 0, 0.185);
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.151);
-    background-attachment: fixed;
+    
+    background-image: url(kisspng-carpe-diem-wedding-photography-photographer-photog-photography2-1611-free-photography-logos-gra-5c026913506687.5847495215436618433293.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    
     
     
  }
- section.imagem > p {
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.185);
-    color: white;
-    text-shadow: 1px 1px 0px black;
-    padding: 10px;
 
- }
+
+
 
  footer{
     background-color: black;
@@ -103,8 +88,3 @@ section{
     color: white;
     padding: 10px;
  }
- 
- 
- 
-
-
