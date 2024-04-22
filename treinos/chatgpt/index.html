@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Estilizado</title>
+    <link rel="stylesheet" href="../chatgpt/estilos/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Formulário Estilizado</h1>
+        <p>Explore todas as opções!</p>
+    </header>
+
+    <form action="#" id="formulario-de-pesquisa">
+
+        <div class="form-group">
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome" placeholder="Digite seu Nome" required>
+        </div>
+
+        <div class="form-group">
+            <label for="iemail">E-mail</label>
+            <input type="email" name="email" id="iemail" placeholder="Digite seu E-mail" required>
+        </div>
+
+        <div class="form-group">
+            <label for="iidade">Idade <span class="dica">(opcional)</span></label>
+            <input type="text" name="idade" id="iidade" placeholder="Idade">
+        </div>
+
+        <div class="form-group">
+             <p>Qual opção melhor descreve sua função atual?</p>
+             <select id="" name="role" class="" required>
+               <option disabled selected value>Selecione sua função</option>
+               <option value="estudante">Estudante</option>
+               <option value="trabalho">Tempo Integral</option>
+               <option value="aprendiz">Aprendiz em tempo integral</option>
+               <option value="preferenao">Prefiro nao dizer</option>
+               <option value="outro">Outro</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p>Dentre as opções abaixo, qual descreveria melhor sua opinião sobre este formulário?</p>
+            <label>
+                <input type="radio" name="bom" value="Muito Bom" class="entrada-radio"> Muito Bom
+            </label>
+            <label>
+                <input type="radio" name="media" value="Ok" class="entrada-radio"> Ok
+            </label>
+            <label>
+                <input type="radio" name="ruim" value="Ruim" class="entrada-radio"> Ruim
+            </label>
+        </div>
+
+        <div class="form-group">
+            <p>O que você mais gosta em ()?</p>
+            <select id="mais-gosto" name="predileto" class="" required>
+                <option disabled selected value>Selecione uma das opções</option>
+                <option value="challenges">Challenges</option>
+                <option value="projects">Projects</option>
+                <option value="community">Community</option>
+                <option value="openSource">Open Source</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <button type="submit">Enviar</button>
+        </div>
+
+    </form>
+
+</body>
+</html>

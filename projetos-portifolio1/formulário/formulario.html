@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro formulario do portifolio</title>
+    <link rel="stylesheet" href="./estilos/style.css">
+</head>
+
+<header>
+    <h1 id="titulo">Teste de conhecimentos(formulário)</h1>
+    <p id="subtitulo">Obrigado por testar este formulario</p>
+</header>
+
+<body>
+    <form action="cadastro.php" id="formulario-de-pesquisa">
+        <div>
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome" placeholder="Digite seu Nome" required>
+        </div>
+
+        <div>
+            <label for="iemail">E-mail</label>
+            <input type="email" name="email" id="iemail" placeholder="Digite seu E-mail" required>
+        </div>
+
+        <div>
+            <label for="iidade">Idade <span class="dica">(opcional)</span></label>
+            <input type="text" name="idade" id="iidade" placeholder="Idade">
+        </div>
+
+        <div>
+             <p>Qual opção melhor descreve sua função atual?</p>
+             <select id="" name="role" class="" required>
+               <option disabled selected value>Selecione sua função</option>
+               <option value="estudante">Estudante</option>
+               <option value="trabalho">Tempo Integral</option>
+               <option value="aprendiz">Aprendiz em tempo integral</option>
+               <option value="preferenao">Prefiro nao dizer</option>
+              <option value="outro">Outro</option>
+            </select>
+        </div>
+
+        <div>
+            <p>dentre as opções a baixo, qual descreveria melhor sua opnião sobre este formulário?</p>
+            <label>
+                <input type="radio" name="bom" value="Muito Bom" class="entrada-radio"> Muito Bom
+            </label>
+            <label>
+                <input type="radio" name="media" value="Ok" class="entrada-radio"> Ok
+            </label>
+            <label><input type="radio" name="ruim" value="Ruim" class="entrada-radio"> Ruim
+            </label>
+        </div>
+
+        <div class="form-group">
+            <p> O que vocem mais gosta em()?</p>
+            <select id="mais-gosto" name="predileto" class="" required>
+                <option disabled selected value>Selecione uma das opções</option>
+                <option value="challenges">Challenges</option>
+                <option value="projects">Projects</option>
+                <option value="community">Community</option>
+                <option value="openSource">Open Source</option>
+            </select>
+        </div>
+
+
+    </form>
+    
+    
+</body>
+</html>
